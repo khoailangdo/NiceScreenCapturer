@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppTest"
+        xmlns:LthColorPicker="clr-namespace:LthColorPicker;assembly=LthColorPicker" x:Class="WpfAppTest.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <LthColorPicker:ColorPicker Name="ColorPicker1" FillColor="LitteColors" ValueChanged="ColorPicker1_OnValueChanged" Height="31" Margin="168,68,222.4,0" VerticalAlignment="Top" Width="Auto" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Button" Content="Button" Margin="217,0,226.4,74.8" VerticalAlignment="Bottom" Height="61"/>
+
+    </Grid>
+</Window>
